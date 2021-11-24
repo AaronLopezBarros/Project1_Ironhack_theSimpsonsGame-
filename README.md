@@ -3,6 +3,7 @@
 After only two weeks in the web development bootcamp at Ironhack, I present you my first project, a video game developed with pure Javascript, canvas (html) and css.
 
 This has been the result, I hope you enjoy it:
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tras solo dos semanas en el bootcamp de desarrollo web en Ironhack, os presento mi primer proyecto, un videojuego desarrollado con puro Javascript, canvas (html) y css.
