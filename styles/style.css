@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'simpson font';
+    src: url(./Fonts/Simpsonfont\ DEMO.otf)
+}
+
+body {
+    background-color:rgb(6, 99, 175);
+}
+canvas {
+    margin: 20px;
+    border: 5px solid black;
+    background-color: rgb(6, 99, 175);
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 5px white;
+    font-family: 'simpson font';
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'simpson font';
+    font-weight: bold;
+    color:black;
+}
+h1{
+    font-family: 'simpson font';
+}
+span{
+    color:white
+}
+#container{
+    display:flex;
+    justify-content: center;
+    background-image: url(../images/clouds-simpson-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#container_canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#score{
+    display: flex;
+    margin-top: 350px;
+    
+}
+#container_start{
+    margin-top: 350px;
+}
+#simpsons_logo > img{
+    max-width: 400px;
+}
+#container_instructions{
+    background-image: url(../images/homer-crazy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+#container_instructions > p{
+    margin:20px;
+}
+#container_start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container_score_sound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yes{
+    display: inline;
+}
+.none{
+    display: none;
+}
+@media (max-width: 1600px){
+    #container_instructions{
+        font-size: 10px
+    }
+}

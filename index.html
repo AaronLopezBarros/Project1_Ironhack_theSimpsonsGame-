@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="./styles/normalize.css" as="style" />
+    <link rel="preload" href="./styles/style.css" as="style" />
+    <link rel="preload" href="script.js" as="script">
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Simpson-Game</title>
+</head>
+<body>
+
+    <div id="container">
+    <div id="container_score_sound">
+        <div id="scoreboard">
+            <p id="score">Score = <span id="score_counter">&nbsp;0</span></p>
+            <p id="beers">Beers = <span id="beers_counter">0</span></p>
+        </div>
+        <div>
+            <button id="sound_button_on">sound on</button>
+        </div>
+        <div>
+            <button id="sound_button_off">sound off</button>
+        </div>
+    </div>
+        <div id="container_canvas">
+            <div id="simpsons_logo">
+                <img src="./images/the-simpson-logo.png" alt="logo the simpsons">
+            </div>
+            <canvas id="canvas" width="800" height="500"></canvas>
+        </div>
+        <div id="container_start">
+            <button id="start_button" class="yes">Start</button>
+            <div id="container_instructions">
+                <h1>INSTRUCTIONS:</h1>
+                <p>Use the <span>LEFT AND RIGHT ARROW</span> keys to move homer. <br>
+                <br>
+                Press the <span>SPACE BAR</span> to jump. <br>
+                <br>
+                If you have beers press the <span>B</span> to launch them <br>
+                <br>
+                When you are drunk press <span>D</span><br>
+                <br>
+                DON'T LET MARGE HIT YOU WITH HER VACUUM CLEANER. <br>
+                <br>
+                SURVIVE!
+                </p>
+            </div>
+        </div>
+       
+    </div>
+
+    <script type="text/javascript" src="./js/EventListeners.js"></script>
+    <script type="text/javascript" src="./js/Classes.js"></script> 
+    <script type="text/javascript" src="./js/script.js"></script> 
+</body>
+</html>
